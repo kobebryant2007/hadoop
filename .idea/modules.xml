@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/hadoop.iml" filepath="$PROJECT_DIR$/.idea/hadoop.iml" />
       <module fileurl="file://$PROJECT_DIR$/sourcecode/sourcecode.iml" filepath="$PROJECT_DIR$/sourcecode/sourcecode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spark/spark.iml" filepath="$PROJECT_DIR$/spark/spark.iml" />
       <module fileurl="file://$PROJECT_DIR$/tdd/tdd.iml" filepath="$PROJECT_DIR$/tdd/tdd.iml" />
     </modules>
   </component>

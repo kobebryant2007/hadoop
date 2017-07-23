@@ -1,18 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
+    <excludeFromCompile>
+      <file url="file://$PROJECT_DIR$/spark/src/main/java/com/ln/spark/WordCountInSpark.java" />
+    </excludeFromCompile>
     <annotationProcessing>
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="sourcecode" />
+        <module name="spark" />
         <module name="tdd" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="sourcecode" target="1.5" />
-      <module name="tdd" target="1.5" />
+      <module name="sourcecode" target="1.8" />
+      <module name="spark" target="1.8" />
+      <module name="tdd" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
